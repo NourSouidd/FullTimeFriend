@@ -55,13 +55,14 @@ h6 {
   display: grid;
   grid-template-columns: 60% 40%;
   color: #79f9fb;
+  padding: 30px;
 }
 
 .logo {
-  width: 100%
 }
 
 .info-block {
-  width: 100%;
+  align-self: self-end;
+  margin-bottom: 100px;
 }
 

@@ -61,6 +61,10 @@ h6 {
   margin: 130px 80px 90px 110px;
 }
 
+.logo img {
+  width: 80%;
+}
+
 .info-block {
   align-self: self-end;
   margin-bottom: 100px;

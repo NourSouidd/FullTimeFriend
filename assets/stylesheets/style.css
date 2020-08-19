@@ -71,6 +71,12 @@ h6 {
   font-size: 20px;
 }
 
+.info > a > p {
+  font-weight: 300;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
 .info > a {
   text-decoration: none;
   color: #7BFFFF;
@@ -80,11 +86,12 @@ h6 {
   text-decoration-line: underline;
 }
 
-.info > a > p {
+.info > p, a > p {
   font-weight: 300;
   margin-top: 6px;
   margin-bottom: 6px;
 }
+
 
 
 

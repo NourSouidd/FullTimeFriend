@@ -105,12 +105,14 @@ h6 {
 
 footer {
   height: 5%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 footer p {
   margin: 0;
   font-size: 10px;
+  color: #7BFFFF;
+  margin-left: 160px;
 }
 
 

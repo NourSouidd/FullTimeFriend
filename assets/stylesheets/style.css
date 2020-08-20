@@ -25,7 +25,10 @@ html {
 }
 
 body {
+  height: 100%;
+  min-height: 667px;
   margin: 0;
+  background-color: #7A38C6;
 }
 
 h1,
@@ -43,9 +46,9 @@ h6 {
 
 .container {
   height: 100%;
+  width: 100%;
   padding: 0 20px;
   margin: 0 auto;
-  background-color: #7A38C6;
 }
 .section {
   height: 100vh;
@@ -73,9 +76,9 @@ h6 {
   margin-bottom: 140px;
 }
 
-.info {
+/*.info {
   width: 80%;
-}
+}*/
 
 .info > h1 {
   font-weight: 900;
@@ -115,4 +118,23 @@ footer p {
   margin-left: 160px;
 }
 
-
+@media(max-width: 1024px) {
+  /* For a screen < 768px, this CSS will be read */
+  .content {
+    grid-template-rows: 50% 50%;
+    grid-template-columns: none;
+    padding: 6px;
+  }
+  .logo {
+    align-self: center;
+    margin: 0;
+  }
+  .info-block {
+    margin-bottom: 0;
+    align-self: normal;
+  }
+  footer p {
+    margin-left: 0;
+    font-size: 7px;
+  }
+}
